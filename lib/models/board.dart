@@ -1,11 +1,11 @@
 import 'dart:math';
-import 'package:minesweeper/models/cell.dart';
+import 'cell.dart';
 
 class Board {
   final int rows;
   final int columns;
   final int numMines;
-  final Random _random = Random(); // Rastgele sayı üretici
+  final Random _random = Random(); // Random number generator
   late List<List<Cell>> cells;
 
   Board({

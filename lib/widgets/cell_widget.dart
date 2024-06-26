@@ -38,7 +38,7 @@ class CellWidget extends StatelessWidget {
         child: Center(
           child: cell.isRevealed
               ? cell.hasMine
-                  ? Image.asset('assets/icons/mine.png', width: 20, height: 20)
+                  ? Icon(Icons.brightness_1, color: Colors.black, size: 20)
                   : Text(
                       cell.surroundingMines > 0
                           ? '${cell.surroundingMines}'
