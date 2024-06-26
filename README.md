@@ -25,7 +25,7 @@
     <h3>Installation</h3>
     <ol>
         <li>Clone the repository:
-            <pre><code>git clone https://github.com/yourusername/minesweeper_app.git</code></pre>
+            <pre><code>git clone https://github.com/cankirkgz/Minesweeper.git</code></pre>
         </li>
         <li>Navigate to the project directory:
             <pre><code>cd minesweeper_app</code></pre>
